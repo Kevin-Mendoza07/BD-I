@@ -1,0 +1,33 @@
+Base de datos I
+
+- Creacion de tablas, llaves primarias y foraneas 
+- Arquitectura centralizada, paralela y distribuida 
+- Maquina y Servidor
+- Dispositivos E/S
+
+Arquitecturas de BD 
+- Relacion Cliente-Servidor
+
+- Centralizada:             
+LAN (Red de Area local)
+
+Conexiones:
+Tx: alambrico, por trenzado (RJ-->100  mts , 90 mts(para efectos de practicas)), Coaxial y Fibra Optica
+Mx: Switch, Hub
+
+- Distribuida: 
+Servidores en distintas localidades y se pueden distribuir las cantidades de tablas 
+
+-Relacion entre Tablas Fragmentacion
+- Horizontal
+- Vertical 
+
+- Paralela:
+
+Centralizada: 1 Server n CPU
+Distribuida: N Server N CPU 
+
+Tipos de Usuario: Propietario, Administrador, Cliente 
+Usuarios comunes: solo lectura, solo escritura, L/E
+
+
