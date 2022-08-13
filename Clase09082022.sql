@@ -3,7 +3,7 @@ go
 use SFCIB 
 
 create table Facultad(
-	Id_Facul  char(3) primary key not null,
+	Id_Facultad char(3) primary key not null,
 	NombreFac nvarchar(35) not null,
 	NDecano  nvarchar(50) not null,
 	FConst date not null
@@ -32,9 +32,9 @@ create table Municipios(
 create table Empleados(
 	NEmp nchar(4) primary key not null,
 	PNEmp nvarchar(15) not null,
-	SNEmp nvarchar(15) not null,
+	SNEmp nvarchar(15),
 	PAEmp nvarchar(15) not null,
-	SAEmp nvarchar(15) not null,
+	SAEmp nvarchar(15),
 	DirEmp nvarchar(70) not null,
 	Id_Mun int foreign key references Municipios(Id_Mun) not null,
 	TelEmp char(8) check(TelEmp like '[2|5|7|8][0-9][0-9][0-9][0-9][0-9][0-9][0-9]')

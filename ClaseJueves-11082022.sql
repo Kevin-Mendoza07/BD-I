@@ -138,4 +138,4 @@ exec sp_bindrule 'EPos','Det_Compras.cantc'
 exec sp_bindrule 'Epos','Det_Compras.preciop'
 exec sp_bindrule 'NoNeg','Det_Compras.subtcom'
 
---backup database SFCIB to disk ''
+--backup database SFCIB to disk 'D:\SFCIB.bak'
