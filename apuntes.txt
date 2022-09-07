@@ -1,5 +1,5 @@
 Base de datos I
-
+I Unidad
 - Creacion de tablas, llaves primarias y foraneas 
 - Arquitectura centralizada, paralela y distribuida 
 - Maquina y Servidor
@@ -30,4 +30,7 @@ Distribuida: N Server N CPU
 Tipos de Usuario: Propietario, Administrador, Cliente 
 Usuarios comunes: solo lectura, solo escritura, L/E
 
-
+II Unidad: Diseño de BD 
+-Algebra Relacional -->Diseño y Consulta 
+-Calculo del predicado
+-Funciones Agregadas y Standard de un Sistema 
